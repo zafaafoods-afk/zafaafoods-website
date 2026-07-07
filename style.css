@@ -20,7 +20,7 @@ img{
 }
 .hero{
     min-height:100vh;
-    background:url("hero-banner.jpg") center center/cover no-repeat;
+    background: url("hero-banner.jpg") center center/cover no-repeat;
     display:flex;
     justify-content:center;
     align-items:center;
