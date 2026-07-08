@@ -72,8 +72,9 @@ img{
 .hero-buttons{
     display:flex;
     gap:20px;
-    flex-wrap:wrap;
-    margin-bottom:20px;
+    position:absolute;
+    bottom:120px;
+    left:80px;
 }
 
 .btn{
