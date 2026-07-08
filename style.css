@@ -244,14 +244,14 @@ header{
 
 .logo-text h1{
     font-size:38px;
-    color:#0B6B3A;
+    color:#ffffff;
     margin:0;
 }
 
 .logo-text p{
     margin-top:5px;
     font-size:17px;
-    color:#666;
+    color:#dddddd;
 }
 
 nav{
@@ -261,7 +261,7 @@ nav{
 
 nav a{
     text-decoration:none;
-    color:#222;
+    color:#ffffff;
     font-size:18px;
     font-weight:600;
     transition:.3s;
