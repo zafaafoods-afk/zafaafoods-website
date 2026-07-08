@@ -213,3 +213,92 @@ img{
     background:#128C7E;
     transform:scale(1.05);
 }
+/* ================= HEADER ================= */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    background:#ffffff;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:999;
+    box-shadow:0 3px 12px rgba(0,0,0,.1);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.logo-text h1{
+    font-size:38px;
+    color:#0B6B3A;
+    margin:0;
+}
+
+.logo-text p{
+    margin-top:5px;
+    font-size:17px;
+    color:#666;
+}
+
+nav{
+    display:flex;
+    gap:35px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#222;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#25D366;
+}
+
+/* Hero ko fixed header ke niche lana */
+.hero{
+    padding-top:100px;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    header{
+        flex-direction:column;
+        padding:15px;
+    }
+
+    .logo{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav{
+        margin-top:15px;
+        gap:20px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero{
+        padding-top:170px;
+    }
+
+}
