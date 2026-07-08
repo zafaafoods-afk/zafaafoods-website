@@ -274,7 +274,10 @@ nav a:hover{
 
 /* Hero ko fixed header ke niche lana */
 .hero{
+    min-height:100vh;
     padding-top:100px;
+    display:flex;
+    align-items:stretch;
 }
 
 /* Mobile */
