@@ -21,20 +21,18 @@ img{
 .hero{
     width:100%;
     aspect-ratio:3 / 2;
-    min-height:0;
     margin-top:100px;
-    padding-top:0;
+    min-height:0;
+    padding:0;
 
     background-image:url("hero-banner.jpg");
-    background-position:center;
+    background-position:center top;
     background-size:contain;
     background-repeat:no-repeat;
     background-color:#000;
 
     position:relative;
     display:flex;
-    justify-content:center;
-    align-items:stretch;
     text-align:center;
     color:#fff;
 }
