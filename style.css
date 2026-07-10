@@ -66,11 +66,13 @@ img{
 
 .features{
     position:absolute;
-    left:40px;
-    bottom:200px;
+    bottom:150px;
 
+    width:100%;
     display:flex;
-    gap:16px;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
     flex-wrap:wrap;
 }
 
@@ -103,11 +105,13 @@ img{
 
 .hero-buttons{
     position:absolute;
-    left:40px;
-    bottom:95px;
+    bottom:70px;
 
+    width:100%;
     display:flex;
-    gap:18px;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
     flex-wrap:wrap;
 }
 
