@@ -3,175 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zafaa Foods</title>
+<meta name="description" content="Zafaa Foods - Fresh, hygienic and homemade meals delivered across Delhi. Order directly on WhatsApp.">
+<meta name="theme-color" content="#07130d">
+<title>Zafaa Foods | Homemade Meals in Delhi</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/jpeg" href="Logo.jpeg">
 </head>
 <body>
-
-<header>
-  <div class="logo">
-    <img src="Logo.jpeg" alt="ZAFAA FOODS">
-    <div class="logo-text">
-      <h1>ZAFAA FOODS</h1>
-      <p>Every Grain Cooked With Care</p>
-    </div>
-  </div>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#menu">Menu</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<header class="site-header">
+  <a href="#" class="brand"><img src="Logo.jpeg" alt="Zafaa Foods logo"><span><strong>ZAFAA FOODS</strong><small>Every Grain Cooked With Care</small></span></a>
+  <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="main-nav"><a href="#">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
 </header>
-
-<section class="hero">
-  <div class="hero-overlay">
-    <div class="features">
-      <span>🟢 100% Hygienic</span>
-      <span>🌿 Fresh Ingredients</span>
-      <span>❤️ Homemade Taste</span>
-    </div>
-    <div class="hero-buttons">
-      <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20place%20an%20order." class="btn" target="_blank" rel="noopener">Order on WhatsApp</a>
-      <a href="#menu" class="btn secondary">View Menu</a>
-    </div>
-  </div>
-</section>
-
-<section id="menu">
-  <h2>Our Menu</h2>
-  <div class="cards">
-
-    <div class="card">
-      <img src="Rajma Chawal.jpeg" alt="Rajma Chawal">
-      <div class="card-content">
-        <h3>Rajma Chawal</h3>
-        <p class="description">Homemade rajma served with steamed rice</p>
-        <span class="veg-badge">🟢 Pure Veg</span>
-        <div class="price-row"><p class="price">₹199</p></div>
-        <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20order%20Rajma%20Chawal." class="order-btn" target="_blank" rel="noopener">ADD ＋</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="Chole Chawal.jpeg" alt="Chole Chawal">
-      <div class="card-content">
-        <h3>Chole Chawal</h3>
-        <p class="description">Punjabi chole served with basmati rice</p>
-        <span class="veg-badge">🟢 Pure Veg</span>
-        <div class="price-row"><p class="price">₹199</p></div>
-        <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20order%20Chole%20Chawal." class="order-btn" target="_blank" rel="noopener">ADD ＋</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="Kadhi Chawal.jpeg" alt="Kadhi Chawal">
-      <div class="card-content">
-        <h3>Kadhi Chawal</h3>
-        <p class="description">Traditional kadhi served with rice</p>
-        <span class="veg-badge">🟢 Pure Veg</span>
-        <div class="price-row"><p class="price">₹199</p></div>
-        <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20order%20Kadhi%20Chawal." class="order-btn" target="_blank" rel="noopener">ADD ＋</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="Jeera Rice.jpeg" alt="Jeera Rice Combo">
-      <div class="card-content">
-        <h3>Jeera Rice Combo</h3>
-        <p class="description">Jeera rice with seasonal vegetable curry</p>
-        <span class="veg-badge">🟢 Pure Veg</span>
-        <div class="price-row"><p class="price">₹199</p></div>
-        <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20order%20Jeera%20Rice%20Combo." class="order-btn" target="_blank" rel="noopener">ADD ＋</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="Aloo Tahri.jpeg" alt="Zafaa Special Aloo Tahri">
-      <div class="card-content">
-        <h3>Zafaa Special Aloo Tahri</h3>
-        <p class="description">Chef special aloo tahri with salad</p>
-        <span class="veg-badge">🟢 Pure Veg</span>
-        <div class="price-row"><p class="price">₹199</p></div>
-        <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20order%20Zafaa%20Special%20Aloo%20Tahri." class="order-btn" target="_blank" rel="noopener">ADD ＋</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="Aam Ka Panna.jpeg" alt="Aam Ka Panna">
-      <div class="card-content">
-        <h3>Aam Ka Panna</h3>
-        <p class="description">Traditional raw mango summer drink</p>
-        <span class="veg-badge">🟢 Pure Veg</span>
-        <div class="price-row"><p class="price">₹149</p></div>
-        <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20order%20Aam%20Ka%20Panna." class="order-btn" target="_blank" rel="noopener">ADD ＋</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="Pudina Ka Pani.jpeg" alt="Pudina Ka Pani">
-      <div class="card-content">
-        <h3>Pudina Ka Pani</h3>
-        <p class="description">Refreshing mint drink</p>
-        <span class="veg-badge">🟢 Pure Veg</span>
-        <div class="price-row"><p class="price">₹149</p></div>
-        <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20order%20Pudina%20Ka%20Pani." class="order-btn" target="_blank" rel="noopener">ADD ＋</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="Sweet Lassi.jpeg" alt="Sweet Lassi">
-      <div class="card-content">
-        <h3>Sweet Lassi</h3>
-        <p class="description">Sweet yogurt-based drink</p>
-        <span class="veg-badge">🟢 Pure Veg</span>
-        <div class="price-row"><p class="price">₹145</p></div>
-        <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20order%20Sweet%20Lassi." class="order-btn" target="_blank" rel="noopener">ADD ＋</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="Salted Lassi.jpeg" alt="Salted Lassi">
-      <div class="card-content">
-        <h3>Salted Lassi</h3>
-        <p class="description">Salted yogurt-based drink</p>
-        <span class="veg-badge">🟢 Pure Veg</span>
-        <div class="price-row"><p class="price">₹145</p></div>
-        <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20order%20Salted%20Lassi." class="order-btn" target="_blank" rel="noopener">ADD ＋</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="Badam Barfi.jpeg" alt="Badam Barfi 100g">
-      <div class="card-content">
-        <h3>Badam Barfi (100g)</h3>
-        <p class="description">Almond based traditional sweet</p>
-        <span class="veg-badge">🟢 Pure Veg</span>
-        <div class="price-row"><p class="price">₹150</p></div>
-        <a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20order%20Badam%20Barfi%20100g." class="order-btn" target="_blank" rel="noopener">ADD ＋</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section id="about">
-  <h2>About Zafaa Foods</h2>
-  <p>Fresh, hygienic and homemade meals prepared with care. Every grain is cooked with care and served fresh.</p>
-</section>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <p>📞 9971099947</p>
-  <p>📍 49A Anand Nagar, Inderlok, Delhi - 110035</p>
-  <p>🕐 12:30 PM - 4:00 PM</p>
-</section>
-
-<footer>
-  <p>© 2026 Zafaa Foods</p>
-</footer>
-
+<main>
+<section class="hero"><div class="hero-shade"></div><div class="hero-actions"><div class="features"><span>🟢 100% Hygienic</span><span>🌿 Fresh Ingredients</span><span>❤️ Homemade Taste</span></div><div class="hero-buttons"><a class="btn whatsapp" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp</a><a class="btn menu-btn" href="#menu">View Menu</a></div><p>Lunch: 12:30 PM–4:00 PM · Delhi delivery only</p></div></section>
+<section id="menu" class="section menu-section"><div class="section-heading"><span>Freshly prepared</span><h2>Our Menu</h2><p>Choose an item and tap “ADD +” to open a ready-to-send WhatsApp order.</p></div><div class="category-row"><button class="category-chip active" data-filter="all">All</button><button class="category-chip" data-filter="rice">Rice Meals</button><button class="category-chip" data-filter="beverage">Beverages</button><button class="category-chip" data-filter="dessert">Dessert</button></div><div class="cards">
+<article class="card" data-category="rice"><img src="Rajma Chawal.jpeg" alt="Rajma Chawal" loading="lazy"><div class="card-content"><div class="card-topline"><span class="veg-badge">● Pure Veg</span><span class="price">₹199</span></div><h3>Rajma Chawal</h3><p>Homemade rajma served with steamed rice.</p><a class="order-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%0A%0AItem%3A%20Rajma%20Chawal%0AQuantity%3A%201%0AName%3A%0AAddress%3A%0ALandmark%3A%0APayment%3A%20UPI%20/%20Cash" target="_blank" rel="noopener">ADD <span>＋</span></a></div></article>
+<article class="card" data-category="rice"><img src="Chole Chawal.jpeg" alt="Chole Chawal" loading="lazy"><div class="card-content"><div class="card-topline"><span class="veg-badge">● Pure Veg</span><span class="price">₹199</span></div><h3>Chole Chawal</h3><p>Punjabi chole served with basmati rice.</p><a class="order-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%0A%0AItem%3A%20Chole%20Chawal%0AQuantity%3A%201%0AName%3A%0AAddress%3A%0ALandmark%3A%0APayment%3A%20UPI%20/%20Cash" target="_blank" rel="noopener">ADD <span>＋</span></a></div></article>
+<article class="card" data-category="rice"><img src="Kadhi Chawal.jpeg" alt="Kadhi Chawal" loading="lazy"><div class="card-content"><div class="card-topline"><span class="veg-badge">● Pure Veg</span><span class="price">₹199</span></div><h3>Kadhi Chawal</h3><p>Traditional kadhi served with rice.</p><a class="order-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%0A%0AItem%3A%20Kadhi%20Chawal%0AQuantity%3A%201%0AName%3A%0AAddress%3A%0ALandmark%3A%0APayment%3A%20UPI%20/%20Cash" target="_blank" rel="noopener">ADD <span>＋</span></a></div></article>
+<article class="card" data-category="rice"><img src="Jeera Rice.jpeg" alt="Jeera Rice Combo" loading="lazy"><div class="card-content"><div class="card-topline"><span class="veg-badge">● Pure Veg</span><span class="price">₹199</span></div><h3>Jeera Rice Combo</h3><p>Jeera rice with seasonal vegetable curry.</p><a class="order-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%0A%0AItem%3A%20Jeera%20Rice%20Combo%0AQuantity%3A%201%0AName%3A%0AAddress%3A%0ALandmark%3A%0APayment%3A%20UPI%20/%20Cash" target="_blank" rel="noopener">ADD <span>＋</span></a></div></article>
+<article class="card" data-category="rice"><img src="Aloo Tahri.jpeg" alt="Zafaa Special Aloo Tahri" loading="lazy"><div class="card-content"><div class="card-topline"><span class="veg-badge">● Pure Veg</span><span class="price">₹199</span></div><h3>Zafaa Special Aloo Tahri</h3><p>Chef special aloo tahri served with salad.</p><a class="order-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%0A%0AItem%3A%20Zafaa%20Special%20Aloo%20Tahri%0AQuantity%3A%201%0AName%3A%0AAddress%3A%0ALandmark%3A%0APayment%3A%20UPI%20/%20Cash" target="_blank" rel="noopener">ADD <span>＋</span></a></div></article>
+<article class="card" data-category="beverage"><img src="Aam Ka Panna.jpeg" alt="Aam Ka Panna" loading="lazy"><div class="card-content"><div class="card-topline"><span class="veg-badge">● Pure Veg</span><span class="price">₹149</span></div><h3>Aam Ka Panna</h3><p>Traditional raw mango summer drink.</p><a class="order-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%0A%0AItem%3A%20Aam%20Ka%20Panna%0AQuantity%3A%201%0AName%3A%0AAddress%3A%0ALandmark%3A%0APayment%3A%20UPI%20/%20Cash" target="_blank" rel="noopener">ADD <span>＋</span></a></div></article>
+<article class="card" data-category="beverage"><img src="Pudina Ka Pani.jpeg" alt="Pudina Ka Pani" loading="lazy"><div class="card-content"><div class="card-topline"><span class="veg-badge">● Pure Veg</span><span class="price">₹149</span></div><h3>Pudina Ka Pani</h3><p>Refreshing mint drink.</p><a class="order-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%0A%0AItem%3A%20Pudina%20Ka%20Pani%0AQuantity%3A%201%0AName%3A%0AAddress%3A%0ALandmark%3A%0APayment%3A%20UPI%20/%20Cash" target="_blank" rel="noopener">ADD <span>＋</span></a></div></article>
+<article class="card" data-category="beverage"><img src="Sweet Lassi.jpeg" alt="Sweet Lassi" loading="lazy"><div class="card-content"><div class="card-topline"><span class="veg-badge">● Pure Veg</span><span class="price">₹145</span></div><h3>Sweet Lassi</h3><p>Sweet yogurt-based drink.</p><a class="order-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%0A%0AItem%3A%20Sweet%20Lassi%0AQuantity%3A%201%0AName%3A%0AAddress%3A%0ALandmark%3A%0APayment%3A%20UPI%20/%20Cash" target="_blank" rel="noopener">ADD <span>＋</span></a></div></article>
+<article class="card" data-category="beverage"><img src="Salted Lassi.jpeg" alt="Salted Lassi" loading="lazy"><div class="card-content"><div class="card-topline"><span class="veg-badge">● Pure Veg</span><span class="price">₹145</span></div><h3>Salted Lassi</h3><p>Salted yogurt-based drink.</p><a class="order-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%0A%0AItem%3A%20Salted%20Lassi%0AQuantity%3A%201%0AName%3A%0AAddress%3A%0ALandmark%3A%0APayment%3A%20UPI%20/%20Cash" target="_blank" rel="noopener">ADD <span>＋</span></a></div></article>
+<article class="card" data-category="dessert"><img src="Badam Barfi.jpeg" alt="Badam Barfi (100g)" loading="lazy"><div class="card-content"><div class="card-topline"><span class="veg-badge">● Pure Veg</span><span class="price">₹150</span></div><h3>Badam Barfi (100g)</h3><p>Almond-based traditional sweet.</p><a class="order-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%0A%0AItem%3A%20Badam%20Barfi%20%28100g%29%0AQuantity%3A%201%0AName%3A%0AAddress%3A%0ALandmark%3A%0APayment%3A%20UPI%20/%20Cash" target="_blank" rel="noopener">ADD <span>＋</span></a></div></article>
+</div></section>
+<section id="about" class="section about-section"><div class="about-card"><div><span class="eyebrow">Why Zafaa Foods</span><h2>Homemade meals, prepared with care</h2><p>Fresh ingredients, hygienic cooking and comforting flavours—prepared for lunch and delivered directly across Delhi.</p></div><div class="about-points"><article><strong>Fresh Daily</strong><span>Prepared in small batches.</span></article><article><strong>Direct Orders</strong><span>No marketplace middleman.</span></article><article><strong>Delhi Delivery</strong><span>Lunch service from 12:30 PM to 4:00 PM.</span></article></div></div></section>
+<section id="reviews" class="section reviews-section"><div class="section-heading"><span>Customer feedback</span><h2>Reviews</h2><p>Verified customer reviews will be added here as orders are completed.</p></div><div class="review-box"><div class="stars">★★★★★</div><h3>Ordered from Zafaa Foods?</h3><p>Share your honest feedback directly on WhatsApp.</p><a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20would%20like%20to%20share%20my%20feedback%3A" target="_blank" rel="noopener">Share Feedback</a></div></section>
+<section id="faq" class="section faq-section"><div class="section-heading"><span>Quick answers</span><h2>Frequently Asked Questions</h2></div><div class="faq-list"><details><summary>How do I place an order?</summary><p>Choose an item and tap “ADD +”. WhatsApp opens with the item and order fields ready.</p></details><details><summary>What are the ordering hours?</summary><p>Lunch orders are accepted from 12:30 PM to 4:00 PM.</p></details><details><summary>Where do you deliver?</summary><p>Zafaa Foods currently delivers within Delhi, subject to location availability.</p></details><details><summary>Which payment methods are available?</summary><p>UPI or cash can be confirmed directly on WhatsApp.</p></details><details><summary>Is the menu vegetarian?</summary><p>Yes. The current listed menu is vegetarian.</p></details></div></section>
+<section id="contact" class="section contact-section"><div class="contact-grid"><div class="contact-card"><span class="eyebrow">Contact & location</span><h2>Order directly from Zafaa Foods</h2><p><strong>Phone:</strong> <a href="tel:+919971099947">9971099947</a></p><p><strong>Address:</strong> 49A Anand Nagar, Inderlok, Delhi - 110035</p><p><strong>Timing:</strong> 12:30 PM - 4:00 PM</p><a class="btn whatsapp contact-btn" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp Zafaa Foods</a></div><div class="map-wrap"><iframe title="Zafaa Foods location" src="https://www.google.com/maps?q=49A%20Anand%20Nagar%2C%20Inderlok%2C%20Delhi%20110035&output=embed" loading="lazy" allowfullscreen></iframe></div></div></section>
+</main>
+<a class="floating-whatsapp" href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener" aria-label="Order on WhatsApp">☎</a>
+<footer><div><strong>ZAFAA FOODS</strong><span>Fresh · Hygienic · Homemade</span></div><p>© 2026 Zafaa Foods. All rights reserved.</p></footer>
 <script src="script.js"></script>
-</body>
-</html>
+</body></html>
