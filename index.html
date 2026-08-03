@@ -1,199 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0b6b43">
-  <meta name="description" content="Order fresh homemade vegetarian lunch meals from Zafaa Foods in Delhi. Add multiple items to cart and place your order directly on WhatsApp.">
-  <meta name="keywords" content="homemade food Delhi, lunch delivery Inderlok, Rajma Chawal Delhi, Chole Chawal, Kadhi Chawal, Zafaa Foods">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://zafaafoods.in/">
-
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Zafaa Foods | Fresh Homemade Lunch in Delhi">
-  <meta property="og:description" content="Fresh homemade vegetarian lunch, direct WhatsApp ordering and delivery in selected Delhi areas.">
-  <meta property="og:url" content="https://zafaafoods.in/">
-  <meta property="og:image" content="https://zafaafoods.in/hero-banner.jpg">
-  <meta property="og:site_name" content="Zafaa Foods">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Zafaa Foods | Fresh Homemade Lunch">
-  <meta name="twitter:description" content="Fresh homemade vegetarian lunch in Delhi. Order directly on WhatsApp.">
-  <meta name="twitter:image" content="https://zafaafoods.in/hero-banner.jpg">
-
-  <title>Zafaa Foods | Fresh Homemade Lunch in Delhi</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/jpeg" href="Logo.jpeg">
-  <link rel="manifest" href="site.webmanifest">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FoodEstablishment",
-    "name": "Zafaa Foods",
-    "url": "https://zafaafoods.in/",
-    "telephone": "+91-99710-99947",
-    "image": "https://zafaafoods.in/hero-banner.jpg",
-    "servesCuisine": ["Indian", "North Indian", "Vegetarian", "Homemade Food"],
-    "priceRange": "₹₹",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "49A Anand Nagar, Inderlok",
-      "addressLocality": "Delhi",
-      "postalCode": "110035",
-      "addressCountry": "IN"
-    },
-    "openingHoursSpecification": [{
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-      "opens": "12:30",
-      "closes": "16:00"
-    }],
-    "sameAs": []
-  }
-  </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Browse the complete Zafaa Foods menu and order multiple items directly on WhatsApp.">
+<meta name="theme-color" content="#07130d">
+<title>Zafaa Foods | Full Menu & WhatsApp Ordering</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/jpeg" href="Logo.jpeg">
 </head>
 <body>
-<a class="skip-link" href="#menu">Skip to menu</a>
+
 <header class="site-header">
   <a href="#" class="brand">
     <img src="Logo.jpeg" alt="Zafaa Foods logo">
-    <div><h1>ZAFAA FOODS</h1><p>Every Grain Cooked With Care</p></div>
+    <span><strong>ZAFAA FOODS</strong><small>Every Grain Cooked With Care</small></span>
   </a>
-  <button class="menu-toggle" type="button" aria-label="Open menu">☰</button>
+  <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
   <nav class="main-nav">
-    <a href="#">Home</a>
-    <a href="#menu">Menu</a>
-    <a href="#about">About</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#faq">FAQ</a>
-    <a href="#contact">Contact</a>
+    <a href="#">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
   </nav>
 </header>
+
 <main>
-<section class="hero"><div class="hero-overlay"><div class="features"><span>🟢 100% Hygienic</span><span>🌿 Fresh Ingredients</span><span>❤️ Homemade Taste</span></div><div class="hero-buttons"><a href="#menu" class="btn">View Menu</a><button class="btn secondary open-cart-btn" type="button">Open Cart</button></div></div></section>
-<section id="menu" class="section">
-<div class="section-heading"><p>Freshly Prepared</p><h2>Our Menu</h2><span>Select items, choose quantity and order together.</span></div>
-<div class="cards">
-<article class="card" data-id="rajma" data-name="Rajma Chawal" data-price="199">
-<img src="Rajma Chawal.jpeg" alt="Rajma Chawal"><div class="card-content"><div class="card-meta"><span>● Pure Veg</span><strong>₹199</strong></div><h3>Rajma Chawal</h3><p>Homemade rajma served with steamed rice.</p><button class="add-to-cart" type="button">ADD ＋</button></div></article>
-<article class="card" data-id="chole" data-name="Chole Chawal" data-price="199">
-<img src="Chole Chawal.jpeg" alt="Chole Chawal"><div class="card-content"><div class="card-meta"><span>● Pure Veg</span><strong>₹199</strong></div><h3>Chole Chawal</h3><p>Punjabi chole served with basmati rice.</p><button class="add-to-cart" type="button">ADD ＋</button></div></article>
-<article class="card" data-id="kadhi" data-name="Kadhi Chawal" data-price="199">
-<img src="Kadhi Chawal.jpeg" alt="Kadhi Chawal"><div class="card-content"><div class="card-meta"><span>● Pure Veg</span><strong>₹199</strong></div><h3>Kadhi Chawal</h3><p>Traditional kadhi served with rice.</p><button class="add-to-cart" type="button">ADD ＋</button></div></article>
-<article class="card" data-id="jeera" data-name="Jeera Rice Combo" data-price="199">
-<img src="Jeera Rice.jpeg" alt="Jeera Rice Combo"><div class="card-content"><div class="card-meta"><span>● Pure Veg</span><strong>₹199</strong></div><h3>Jeera Rice Combo</h3><p>Jeera rice with seasonal vegetable curry.</p><button class="add-to-cart" type="button">ADD ＋</button></div></article>
-<article class="card" data-id="tahri" data-name="Zafaa Special Aloo Tahri" data-price="199">
-<img src="Aloo Tahri.jpeg" alt="Zafaa Special Aloo Tahri"><div class="card-content"><div class="card-meta"><span>● Pure Veg</span><strong>₹199</strong></div><h3>Zafaa Special Aloo Tahri</h3><p>Chef special aloo tahri served with salad.</p><button class="add-to-cart" type="button">ADD ＋</button></div></article>
-<article class="card" data-id="panna" data-name="Aam Ka Panna" data-price="149">
-<img src="Aam Ka Panna.jpeg" alt="Aam Ka Panna"><div class="card-content"><div class="card-meta"><span>● Pure Veg</span><strong>₹149</strong></div><h3>Aam Ka Panna</h3><p>Traditional raw mango summer drink.</p><button class="add-to-cart" type="button">ADD ＋</button></div></article>
-<article class="card" data-id="pudina" data-name="Pudina Ka Pani" data-price="149">
-<img src="Pudina Ka Pani.jpeg" alt="Pudina Ka Pani"><div class="card-content"><div class="card-meta"><span>● Pure Veg</span><strong>₹149</strong></div><h3>Pudina Ka Pani</h3><p>Refreshing mint drink.</p><button class="add-to-cart" type="button">ADD ＋</button></div></article>
-<article class="card" data-id="sweet-lassi" data-name="Sweet Lassi" data-price="145">
-<img src="Sweet Lassi.jpeg" alt="Sweet Lassi"><div class="card-content"><div class="card-meta"><span>● Pure Veg</span><strong>₹145</strong></div><h3>Sweet Lassi</h3><p>Sweet yogurt-based drink.</p><button class="add-to-cart" type="button">ADD ＋</button></div></article>
-<article class="card" data-id="salted-lassi" data-name="Salted Lassi" data-price="145">
-<img src="Salted Lassi.jpeg" alt="Salted Lassi"><div class="card-content"><div class="card-meta"><span>● Pure Veg</span><strong>₹145</strong></div><h3>Salted Lassi</h3><p>Salted yogurt-based drink.</p><button class="add-to-cart" type="button">ADD ＋</button></div></article>
-<article class="card" data-id="barfi" data-name="Badam Barfi (100g)" data-price="150">
-<img src="Badam Barfi.jpeg" alt="Badam Barfi (100g)"><div class="card-content"><div class="card-meta"><span>● Pure Veg</span><strong>₹150</strong></div><h3>Badam Barfi (100g)</h3><p>Almond-based traditional sweet.</p><button class="add-to-cart" type="button">ADD ＋</button></div></article>
-</div></section>
-<section id="about" class="section about-section">
+<section class="hero">
+  <div class="hero-shade"></div>
+  <div class="hero-actions">
+    <div class="features"><span>🟢 Freshly Prepared</span><span>🛒 Multi-item Cart</span><span>📱 WhatsApp Checkout</span></div>
+    <div class="hero-buttons"><a class="btn whatsapp" href="#menu">Explore Full Menu</a><button class="btn menu-btn open-cart" type="button">Open Cart</button></div>
+    <p>Choose multiple items, adjust quantities and send one complete WhatsApp order.</p>
+  </div>
+</section>
+
+<section id="menu" class="section menu-section">
   <div class="section-heading">
-    <p>Our Story</p>
-    <h2>About Zafaa Foods</h2>
-    <span>Fresh homemade food delivered with love.</span>
+    <span>34 items · 8 categories</span>
+    <h2>Explore Our New Menu</h2>
+    <p>Search, filter and add multiple items to your cart.</p>
   </div>
-  <div class="about-grid">
-    <div class="about-copy">
-      <h3>Homemade meals, prepared with care</h3>
-      <p>Zafaa Foods serves fresh and hygienic vegetarian lunch meals prepared in a home-style kitchen. Every order is cooked with carefully selected ingredients and packed fresh for delivery.</p>
-      <div class="about-points">
-        <span>✓ Freshly prepared</span>
-        <span>✓ Pure vegetarian</span>
-        <span>✓ Direct WhatsApp ordering</span>
-        <span>✓ Delhi delivery</span>
-      </div>
-    </div>
-    <div class="about-highlight">
-      <strong>Lunch Timing</strong>
-      <span>12:30 PM – 4:00 PM</span>
-      <p>Advance orders are recommended for smooth and timely delivery.</p>
-      <a class="inline-whatsapp" href="https://wa.me/919971099947" target="_blank" rel="noopener">Chat on WhatsApp</a>
-    </div>
+
+  <div class="menu-tools">
+    <label class="search-box">
+      <span>⌕</span>
+      <input id="menu-search" type="search" placeholder="Search rajma, combo, shake..." autocomplete="off">
+    </label>
+    <div id="category-row" class="category-row"></div>
   </div>
+
+  <div id="menu-results" class="menu-results"></div>
+  <div id="cards" class="cards" aria-live="polite"></div>
+</section>
+
+<section id="about" class="section about-section">
+  <div class="about-card"><div><span class="eyebrow">Why Zafaa Foods</span><h2>More choice, one easy order</h2><p>Meals, breakfast, beverages, combos and homemade favourites are now available in one searchable menu.</p></div><div class="about-points"><article><strong>34 Menu Items</strong><span>Organised by category.</span></article><article><strong>Multiple Item Cart</strong><span>Add everything before checkout.</span></article><article><strong>Direct WhatsApp Order</strong><span>Complete order in one message.</span></article></div></div>
 </section>
 
 <section id="reviews" class="section reviews-section">
-  <div class="section-heading">
-    <p>Customer Experience</p>
-    <h2>Customer Reviews</h2>
-    <span>Real customer reviews can be added here as they are received.</span>
-  </div>
-  <div class="review-grid">
-    <article class="review-card"><div class="stars">★★★★★</div><h3>Fresh Homemade Taste</h3><p>Customers can share their feedback about food quality, freshness and homemade taste here.</p><span>Customer feedback</span></article>
-    <article class="review-card"><div class="stars">★★★★★</div><h3>Clean & Hygienic Packing</h3><p>This space is ready for verified comments about packaging and delivery experience.</p><span>Customer feedback</span></article>
-    <article class="review-card"><div class="stars">★★★★★</div><h3>Easy WhatsApp Ordering</h3><p>Verified customer reviews about the website and ordering experience can be published here.</p><span>Customer feedback</span></article>
-  </div>
-  <div class="review-cta">
-    <p>Ordered from Zafaa Foods? Your genuine feedback helps local customers discover us.</p>
-    <a href="https://www.google.com/maps/search/?api=1&query=Zafaa%20Foods%2049A%20Anand%20Nagar%20Inderlok%20Delhi" target="_blank" rel="noopener">View or Review on Google</a>
-  </div>
+  <div class="section-heading"><span>Customer feedback</span><h2>Reviews</h2><p>Verified reviews will appear here as customers order from the expanded menu.</p></div>
+  <div class="review-box"><div class="stars">★★★★★</div><h3>Enjoyed your order?</h3><p>Share your honest feedback with Zafaa Foods.</p><a href="https://wa.me/919971099947?text=Hi%20Zafaa%20Foods%2C%20I%20would%20like%20to%20share%20my%20feedback%3A" target="_blank" rel="noopener">Share Feedback</a></div>
 </section>
 
 <section id="faq" class="section faq-section">
-  <div class="section-heading">
-    <p>Need Help?</p>
-    <h2>Frequently Asked Questions</h2>
-    <span>Everything you need to know before placing an order.</span>
-  </div>
+  <div class="section-heading"><span>Quick answers</span><h2>Frequently Asked Questions</h2></div>
   <div class="faq-list">
-    <details><summary>How can I place an order?</summary><p>Add your preferred items to the cart, enter your delivery details and press “Order on WhatsApp”.</p></details>
-    <details><summary>What are the serving hours?</summary><p>Zafaa Foods serves lunch from 12:30 PM to 4:00 PM. Advance ordering is recommended.</p></details>
-    <details><summary>Where do you deliver?</summary><p>Delivery is available in selected areas of Delhi. Delivery availability and charges are confirmed on WhatsApp.</p></details>
-    <details><summary>Which payment methods are accepted?</summary><p>You can select UPI or Cash while placing the order. Final confirmation is shared on WhatsApp.</p></details>
-    <details><summary>Can I order multiple items together?</summary><p>Yes. Add multiple dishes to the cart, adjust the quantities and send the complete order in one WhatsApp message.</p></details>
+    <details><summary>Can I order more than one item?</summary><p>Yes. Add meals, beverages or combos to the cart, change quantities and send one complete WhatsApp order.</p></details>
+    <details><summary>How is the final total confirmed?</summary><p>The cart shows the item total. Delivery charges, availability and final payable amount are confirmed on WhatsApp.</p></details>
+    <details><summary>Are egg breakfast items vegetarian?</summary><p>Egg items are clearly marked with an Egg badge. Other listed items are marked Veg.</p></details>
+    <details><summary>What are the ordering hours?</summary><p>Current lunch service timing is 12:30 PM to 4:00 PM. Availability may be confirmed on WhatsApp.</p></details>
   </div>
 </section>
 
 <section id="contact" class="section contact-section">
-  <div class="section-heading">
-    <p>Get In Touch</p>
-    <h2>Contact & Location</h2>
-    <span>Order directly from Zafaa Foods.</span>
-  </div>
-  <div class="contact-grid">
-    <div class="contact-card">
-      <h3>Zafaa Foods</h3>
-      <p><strong>Phone:</strong> <a href="tel:+919971099947">+91 99710 99947</a></p>
-      <p><strong>WhatsApp:</strong> <a href="https://wa.me/919971099947" target="_blank" rel="noopener">Order Now</a></p>
-      <p><strong>Address:</strong> 49A Anand Nagar, Inderlok, Delhi – 110035</p>
-      <p><strong>Timing:</strong> 12:30 PM – 4:00 PM</p>
-    <div class="contact-actions">
-        <a class="contact-action" href="https://www.google.com/maps/search/?api=1&query=49A%20Anand%20Nagar%20Inderlok%20Delhi%20110035" target="_blank" rel="noopener">📍 Get Directions</a>
-        <a class="contact-action" href="tel:+919971099947">📞 Call Now</a>
-      </div>
-    </div>
-    <div class="map-wrap">
-      <iframe title="Zafaa Foods location" src="https://www.google.com/maps?q=49A%20Anand%20Nagar%20Inderlok%20Delhi%20110035&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
-    </div>
-  </div>
+  <div class="contact-grid"><div class="contact-card"><span class="eyebrow">Contact & location</span><h2>Order directly from Zafaa Foods</h2><p><strong>Phone:</strong> <a href="tel:+919971099947">9971099947</a></p><p><strong>Address:</strong> 49A Anand Nagar, Inderlok, Delhi - 110035</p><p><strong>Timing:</strong> 12:30 PM - 4:00 PM</p><button class="btn whatsapp open-cart" type="button">Review Cart & Order</button></div><div class="map-wrap"><iframe title="Zafaa Foods location" src="https://www.google.com/maps?q=49A%20Anand%20Nagar%2C%20Inderlok%2C%20Delhi%20110035&output=embed" loading="lazy" allowfullscreen></iframe></div></div>
 </section>
 </main>
-<button class="floating-cart open-cart-btn" type="button" aria-label="Open cart">🛒 <span id="cart-count" aria-live="polite">0</span></button>
-<div class="cart-backdrop" id="cart-backdrop"></div>
-<aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
-<div class="cart-header"><div><h2>Your Cart</h2><p id="cart-summary" aria-live="polite">0 items</p></div><button class="close-cart" type="button" aria-label="Close cart">×</button></div>
-<div class="cart-items" id="cart-items"><div class="empty-cart">Your cart is empty.</div></div>
-<div class="customer-fields"><h3>Delivery Details</h3><label for="customer-name">Name</label><input id="customer-name" type="text" autocomplete="name" placeholder="Customer name" required><label for="customer-phone">Phone</label><input id="customer-phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10-digit phone number" maxlength="10" required><label for="customer-address">Delivery address</label><textarea id="customer-address" rows="3" autocomplete="street-address" placeholder="Complete delivery address" required></textarea><label for="customer-landmark">Landmark (optional)</label><input id="customer-landmark" type="text" placeholder="Landmark"><label for="payment-method">Payment method</label><select id="payment-method"><option value="UPI">UPI</option><option value="Cash">Cash</option></select></div>
-<div class="cart-footer"><div class="cart-total"><span>Estimated Total</span><strong id="cart-total">₹0</strong></div><button id="whatsapp-checkout" class="checkout-btn" type="button">Order on WhatsApp</button><p>Final delivery charge and availability will be confirmed on WhatsApp.</p></div>
-</aside>
-<footer class="site-footer">
-  <div class="footer-grid">
-    <div><h3>Zafaa Foods</h3><p>Every Grain Cooked With Care.</p></div>
-    <div><h4>Quick Links</h4><a href="#menu">Menu</a><a href="#about">About Us</a><a href="#faq">FAQ</a></div>
-    <div><h4>Order & Contact</h4><a href="tel:+919971099947">+91 99710 99947</a><a href="https://wa.me/919971099947" target="_blank" rel="noopener">WhatsApp Order</a><span>12:30 PM – 4:00 PM</span></div>
+
+<button class="cart-fab open-cart" type="button" aria-label="Open cart">🛒 <span>Cart</span> <b id="cart-count">0</b></button>
+<div id="cart-backdrop" class="cart-backdrop" hidden></div>
+<aside id="cart-drawer" class="cart-drawer" aria-hidden="true">
+  <div class="cart-header"><div><span>Your order</span><h2>Cart</h2></div><button id="cart-close" class="cart-close" type="button" aria-label="Close cart">×</button></div>
+  <div id="cart-items" class="cart-items"></div>
+  <p id="cart-empty" class="cart-empty">Your cart is empty. Add items from the menu.</p>
+  <div class="customer-fields">
+    <h3>Delivery details</h3>
+    <input id="customer-name" type="text" placeholder="Customer name">
+    <input id="customer-phone" type="tel" placeholder="Phone number">
+    <textarea id="customer-address" rows="3" placeholder="Complete delivery address"></textarea>
+    <input id="customer-landmark" type="text" placeholder="Landmark (optional)">
+    <select id="payment-method"><option value="UPI">UPI</option><option value="Cash">Cash</option></select>
   </div>
-  <div class="footer-bottom">© 2026 Zafaa Foods. All rights reserved.</div>
-</footer>
-<noscript><div class="noscript">JavaScript is required for the cart. You can still order by calling or WhatsApp at +91 99710 99947.</div></noscript>
-<script src="script.js" defer></script>
-</body></html>
+  <div class="cart-summary">
+    <div><span>Total items</span><strong id="cart-total-items">0</strong></div>
+    <div><span>Estimated total</span><strong id="cart-total">₹0</strong></div>
+    <p>Delivery charges, item availability and final total will be confirmed on WhatsApp.</p>
+    <button id="checkout-btn" class="checkout-btn" type="button" disabled>Order on WhatsApp</button>
+    <button id="clear-cart" class="clear-cart" type="button" disabled>Clear cart</button>
+  </div>
+</aside>
+
+<footer><div><strong>ZAFAA FOODS</strong><span>Fresh · Hygienic · Homemade</span></div><p>© 2026 Zafaa Foods. All rights reserved.</p></footer>
+
+<script src="menu-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
